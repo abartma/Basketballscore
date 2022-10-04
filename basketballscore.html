@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Score</title>
+        <link rel="stylesheet" href="basketball.css">
+        <script src="basketball.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home" id="home">
+                <h3>HOME</h3>
+                <div class="screen" id="screen-home"><div id="home-points">0</div></div>
+                <div class="point-row">
+                  <button class="points-box-1" onclick="add(1,'home')" >+1</button>
+                  <button class="points-box-2" onclick="add(2,'home')">+2</button>
+                  <button class="points-box-3" onclick="add(3,'home')">+3</button>
+                </div>
+            </div>
+            <div class="guest" id="guest">
+                <h3>GUEST</h3>
+                <div class="screen" id="screen-guest"><div id="guest-points">0</div></div>
+                <div class="point-row">
+                  <button class="points-box-1" onclick="add(1,'guest')" >+1</button>
+                  <button class="points-box-2" onclick="add(2,'guest')">+2</button>
+                  <button class="points-box-3" onclick="add(3,'guest')">+3</button>
+                </div>
+            </div>
+        </div>
+      
+        <!-- <div class="box-frame">
+          <div class="box-1">a</div>
+          <div class="box-2">b</div>
+          <div class="box-3">c</div>
+        </div> -->
+        <button class="new-game" onclick="newGame()">
+            New Game
+        </button>
+    </body>
+</html>
