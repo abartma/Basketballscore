@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    border: 1px solid rgb(15, 118, 153);
+    height: 600px;
+    width: 1600px;
+    align-items: start;
+}
+[class^="child"]{
+    border: 1px solid black;
+    background: lightcoral;
+}
+
+/* .child1 {
+    flex: 1 1;
+} */
+body{
+    background: lightgrey;
+}
